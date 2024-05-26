@@ -1,3 +1,7 @@
+# 高校招生计划分析可视化系统
+#### 介绍
+本项目是2022年软通动力实习，大数据1901-05组团队合作项目
+![image](https://github.com/15629690915/-/assets/68250640/9f65bcfc-7960-4977-bb06-36a0e65a1ede)
 ![image](https://github.com/15629690915/-/assets/68250640/15e48677-17ba-4964-a6a4-65817ef27594)
 ![image](https://github.com/15629690915/-/assets/68250640/af91e4e8-5071-4ecc-8267-4f8a3359237a)
 ![image](https://github.com/15629690915/-/assets/68250640/fb1f49c2-9fbd-435c-9de5-178048fea8b8)
