@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.ml-5 {
+    margin-left: 5px;
+}
+.mr-5 {
+    margin-right: 5px;
+}
+.pd-10 {
+    padding: 10px 0;
+}
+.m-10 {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+.el-cascader-menu {
+    height: 200px;
+}
+.Pycharm_color {
+    background: linear-gradient(135deg, #FCF5AAFF, #9AF8DAFF) !important;
+}
+
+.el-main {
+    background: linear-gradient(135deg, #FCF5AAFF, #9AF8DAFF) !important;
+}
+.el-header {
+    background: linear-gradient(135deg, #FCF5AAFF, #9AF8DAFF) !important;
+}
+.el-aside {
+    background: linear-gradient(135deg, #FCF5AAFF, #9AF8DAFF) !important;;
+}
+

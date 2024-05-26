@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wyf.springboot.mapper.SchoolMapper">
+
+    <resultMap id="pageSchool" type="com.wyf.springboot.entity.School">
+        <result column="id" property="id" />
+        <result column="sid" property="sid" />
+        <result column="school" property="school" />
+        <result column="city_code" property="cityCode" />
+        <result column="city" property="city" />
+        <result column="sub_type" property="subType" />
+        <result column="profess" property="profess" />
+        <result column="major_code" property="majorCode" />
+        <result column="plan" property="plan" />
+    </resultMap>
+
+    <select id="findPage" resultMap="pageSchool">
+        select sys_school.* from sys_school
+        <where>
+            <if test="school != null and school != ''">
+                and sys_school.school like concat('%', #{school} ,'%')
+            </if>
+            <if test="profess != null and profess != ''">
+                and sys_school.profess like concat('%', #{profess} ,'%')
+            </if>
+            <if test="city != null and city != ''">
+                and sys_school.city like concat('%', #{city} ,'%')
+            </if>
+            <if test="subType != null and subType != ''">
+                and sys_school.sub_type like concat('%', #{subType} ,'%')
+            </if>
+        </where>
+    </select>
+</mapper>
